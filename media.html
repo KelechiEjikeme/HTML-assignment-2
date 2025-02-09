@@ -1,0 +1,44 @@
+<!-- media.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelechi's media portfolio</title>
+    <style>
+        body {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .media-container {
+            margin: 20px 0;
+        }
+        picture img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>About Kelechi</h1>
+
+    <section id="media-container">
+        <h2>An image of me</h2>
+
+        <picture>
+            <source srcset="./assets/images/img2.jpg" media="(min-width: 1024px)" />
+            <source srcset="./assets/images/img2.jpg" media="(min-width: 768px)"/>
+            <source srcset="./assets/images/img2.jpg" media="(min-width: 320px)"/>
+            <img src="./assets/images/img2.jpg" alt="An image of a black woman on Afro" width="400" height="300">
+        </picture>
+
+    </section>
+
+
+    <p style="text-align: center;">
+        <a href="table.html">Back to Schools and Courses</a>
+    </p>
+</body>
+</html>
